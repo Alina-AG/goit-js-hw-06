@@ -29,7 +29,7 @@ const destroy = () => {
   document.querySelector('#boxes').innerHTML = '';
   width = 30;
   height = 30;
-  document.querySelector('input').value = undefined;
+  document.querySelector('input').value = '';
 };
 
 const buttonCreate = document.querySelector("[data-create]");
